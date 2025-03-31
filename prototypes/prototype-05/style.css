@@ -1,0 +1,76 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Carta-5 equivalent */
+.main-body {
+    margin-top: 70px;
+    padding: 50px;
+    padding-bottom: 40px;
+    box-shadow: 3px 7px 81px -10px #000000bf;
+}
+
+/* Main heading equivalent */
+.main-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Project grid equivalent */
+.project-grid {
+    display: flex;
+    gap: 30px;
+}
+
+/* Project column equivalent */
+.project-column {
+    flex: 1;
+}
+
+/* Project number equivalent */
+.project-number {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Project description equivalent */
+.project-description {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/* Project image equivalent */
+.project-image {
+    width: 100%;
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures images are cropped properly */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .project-grid {
+        flex-direction: column;
+    }
+    
+    .project-column {
+        margin-bottom: 30px;
+    }
+}
