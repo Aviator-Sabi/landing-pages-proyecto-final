@@ -16,7 +16,7 @@ body {
 }
 
 /* Main container */
-.carta-4 {
+.card-4 {
     margin-top: 70px;
     display: flex;
     gap: 70px;
@@ -27,37 +27,37 @@ body {
 }
 
 /* Left side - Image */
-.carta-4 > .image-section {
+.card-4 .image-section {
     width: 50%;
 }
 
-.carta-4 > .image-section img {
+.card-4 .image-section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 /* Right side - Content */
-.carta-4 > .content-section {
+.card-4 .content-section {
     width: 50%;
     padding: 60px 40px;
 }
 
 /* Heading styles */
-.carta-4 h2 {
+.card-4 h2 {
     font-size: 45px;
     margin: 20px 0;
 }
 
 /* Paragraph styles */
-.carta-4 p {
+.card-4 p {
     line-height: 22px;
     color: #777;
     margin-top: 0;
 }
 
 /* Button styles */
-.carta-4-first-part button {
+.card-4-first-part button {
     color: #fff;
     background-color: #333;
     border: none;
@@ -67,7 +67,7 @@ body {
 }
 
 /* Numbered sections */
-.carta-4-second-part > div > div {
+.card-4-second-part > div > div {
     color: #777;
     font-size: 20px;
     font-weight: 500;
@@ -76,17 +76,17 @@ body {
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
-    .carta-4 {
+    .card-4 {
         flex-direction: column;
         width: 100%;
     }
 
-    .carta-4 > .image-section,
-    .carta-4 > .content-section {
+    .card-4 > .image-section,
+    .card-4 > .content-section {
         width: 100%;
     }
 
-    .carta-4 > .content-section {
+    .card-4 > .content-section {
         padding: 30px 20px;
     }
 }

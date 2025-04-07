@@ -72,22 +72,3 @@ body {
     object-fit: cover;
 }
 
-/* Responsive design for smaller screens */
-@media (max-width: 768px) {
-    .hero-section {
-        flex-direction: column;
-    }
-
-    .hero-title, .hero-content {
-        width: 100%;
-        padding-right: 0;
-    }
-
-    .hero-title {
-        margin-bottom: 20px;
-    }
-
-    .image-container {
-        height: 300px;
-    }
-}

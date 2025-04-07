@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-/* Carta-5 equivalent */
+/* card-5 */
 .main-body {
     margin-top: 70px;
     padding: 50px;
@@ -22,25 +22,25 @@ body {
     box-shadow: 3px 7px 81px -10px #000000bf;
 }
 
-/* Main heading equivalent */
+/* Main heading */
 .main-heading {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 40px;
 }
 
-/* Project grid equivalent */
+/* Project grid */
 .project-grid {
     display: flex;
     gap: 30px;
 }
 
-/* Project column equivalent */
+/* Project column  */
 .project-column {
     flex: 1;
 }
 
-/* Project number equivalent */
+/* Project number  */
 .project-number {
     font-size: 20px;
     font-weight: bold;
@@ -48,29 +48,18 @@ body {
     color: #555;
 }
 
-/* Project description equivalent */
+/* Project description  */
 .project-description {
     color: #666;
     margin-bottom: 20px;
     font-size: 15px;
 }
 
-/* Project image equivalent */
+/* Project image  */
 .project-image {
     width: 100%;
-    height: 200px; /* Fixed height */
-    object-fit: cover; /* Ensures images are cropped properly */
+    height: 200px;
+    object-fit: cover; 
     border-radius: 5px;
     margin-top: 10px;
-}
-
-/* Responsive design for smaller screens */
-@media (max-width: 768px) {
-    .project-grid {
-        flex-direction: column;
-    }
-    
-    .project-column {
-        margin-bottom: 30px;
-    }
 }
