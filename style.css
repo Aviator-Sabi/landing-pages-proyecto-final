@@ -15,13 +15,40 @@ body {
     margin: 0;
     padding: 0;
 }
-nav-bar{
-    background-color: black;
-    color:beige;
-    
+@import url('https://fonts.googleapis.com/css2?family=Gotham+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap'); /* or replace with your preferred icon-like script font */
+
+nav {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
 }
 
-.row {
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar h1 {
+    font-family: 'New Rocker', cursive; /* or another script-style font you like */
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.nav-bar p {
+    font-family: 'Gotham Condensed', sans-serif;
+    font-size: 1.2em;
+    margin: 5px 0 0;
+    letter-spacing: 1px;
+}
+
+
+.proto-list {
     display: flex;
     gap: 20px;
     justify-content: center;
