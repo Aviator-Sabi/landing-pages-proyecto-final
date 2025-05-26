@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-bar h1 {
-    font-family: 'New Rocker', cursive; /* or another script-style font you like */
+    font-family: 'New Rocker', cursive; 
     font-size: 2.5em;
     margin: 0;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -73,5 +73,5 @@ nav {
 
 .btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px #00000033;
 }
